@@ -1,0 +1,153 @@
+body{
+	font-family: sans-serif;
+	width: 100%;
+	text-align: center;
+}
+.logo>a{ 
+	display: flex; 
+	text-decoration: none;
+	color: #64636b;
+}
+.logo>a>img{
+	width: 70px;
+	height: 50px;
+	margin-top: 10px;
+	margin-left: 200px;
+}
+.logo>a>p{ 
+	margin-top: 10px;
+	padding-left: 10px;
+	margin-bottom: 0;
+	font-size: 35px;
+	font-weight: 700;
+}
+.home{
+	margin-left: 150px;
+	margin-top: 20px;
+}
+.home>ul{
+	display: flex;
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+.home>ul>li>a{
+	text-decoration: none;
+	margin-left: 50px;
+	color: #64636b;
+	font-weight: 700;
+}
+.photo{
+	margin-top: 25px;
+	display:inline-block;
+	position:relative;
+}
+.photo_text{
+	position:absolute;
+	left:0;
+	bottom:0;
+	width:100%;
+	box-sizing:border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	color:#fff;
+}
+.photo_text>h1{
+    font-size: 50px;
+	margin: 0;
+	padding: 0;
+}
+.photo_text>h2{
+	margin: 0;
+	padding: 0;
+    margin-bottom: 20px;
+    font-size: 30px;
+} 
+button {
+	margin-bottom: 230px;
+    padding: 20px 40px;
+    font-size: 25px;
+    border-radius: 10px;
+    border: 0;
+    color: white;
+    background: #d1bc00;
+    font-weight: 700;
+}
+.about{
+	display: flex;
+	margin-left: 8%;
+    margin-right: 8%;
+}
+.facebook{
+	margin: 0 auto;
+	width: 350px;
+	height: 400px;
+}
+.landing{
+	margin: 0 auto;
+	width: 350px;
+	height: 400px;
+}
+.ads{
+	margin: 0 auto;
+	width: 350px;
+	height: 400px;
+}
+h3{
+	margin: 0;
+	margin-top: 30px;
+	font-size: 25px;
+	color: #64636b;
+	font-weight: 700;
+}
+h4{
+	margin: 0;
+	margin-top: 80px;
+	font-size: 40px;
+	font-weight: 700;
+	color: #64636b;
+}
+.about_0>p{
+	margin: 0;
+	padding-top: 5px;
+	padding-bottom: 80px;
+	font-size: 20px;
+	font-weight: 700;
+	color: #64636b;
+}
+.facebook>p{
+	margin: 0;
+	margin-top: 15px;
+	color: #64636b;
+}
+.facebook>a{
+	text-decoration: none;
+}
+.landing>p{
+	margin: 0;
+	margin-top: 15px;
+	color: #64636b;
+}
+.landing>a{
+	text-decoration: none;
+}
+.ads>p{
+	margin: 0;
+	margin-top: 15px;
+	color: #64636b;
+}
+.ads>a{
+	text-decoration: none;
+}
+.footer{
+	background: #4f4f52;
+	color: #fff;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 800px; 
+}
+.footer>p>a{
+	color: white;
+	text-decoration: none;
+}
